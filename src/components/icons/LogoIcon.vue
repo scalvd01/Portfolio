@@ -1,4 +1,4 @@
 <template>
-  <img src="@/assets/images/SKC_logo.png" alt="SKC logo">
+  <img src="@/assets/images/SKC_Logo.png" alt="SKC logo">
 </template>
 
