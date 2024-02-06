@@ -7,9 +7,11 @@ const props = defineProps<{ project: Project }>()
 </script>
 
 <template>
-  <div class="flex flex-col bg-white rounded-lg shadow-xl shadow-primary/30 md:flex-row md:p-4">
+  <div
+    class="flex flex-col bg-white rounded-lg shadow-xl shadow-primary/30 md:flex-row md:p-4 md:items-center"
+  >
     <img
-      class="object-cover w-full rounded-t-lg h-96 md:object-contain md:h-auto md:w-48 md:rounded-lg"
+      class="object-cover object-top w-full rounded-t-lg h-96 md:object-contain md:h-auto md:w-48 md:rounded-lg"
       :src="props.project.image"
       :alt="props.project.name + '-image'"
     />
