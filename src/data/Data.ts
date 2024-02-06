@@ -53,7 +53,7 @@ export const projectsList: Array<Project> = [
   {
     name: 'Paperclips',
     description:
-      'Juego web autoincremental de gestión de recursos con mejoras y complejidad ascendente. Con internacionalización completa de la aplicación',
+      'Juego web autoincremental de gestión de recursos con mejoras y complejidad ascendente. Con internacionalización completa de la aplicación.',
     technologies: ['Vue', 'Tailwind', 'Flowbite', 'VueUse', 'i18n', 'Pinia'],
     pageLink: 'https://paperclips-game.netlify.app/',
     githubLink: 'https://github.com/scalvd01/Paperclips-game',
@@ -62,7 +62,7 @@ export const projectsList: Array<Project> = [
   {
     name: 'The Binding of Isaac Items Wiki',
     description:
-      'Wiki e la que se detalla la informaciónde los ítems y objetos del juego The Binding of Isaac.',
+      'Wiki en la que se detalla la información de los ítems y objetos del juego The Binding of Isaac y sus expansiones.',
     technologies: ['Vue', 'Vue Router', 'Tailwind', 'Flowbite', 'VueUse'],
     pageLink: 'https://tboi-items-wiki.netlify.app/#/',
     githubLink: 'https://github.com/scalvd01/tboi-items-wiki',
