@@ -40,7 +40,7 @@ watch(isContactoVisible, () => {
         ><EnvelopeIcon class="size-8 mr-2 hover:text-orange-500"
       /></a>
       <a
-        href="www.linkedin.com/in/santiago-calvo-de-la-fuente-347a44293"
+        href="https://www.linkedin.com/in/santiago-calvo-de-la-fuente-347a44293"
         class="my-1 text-lg font-semibold text-gray-900"
         ><LinkedInIcon class="size-8 mr-2 hover:text-blue-700" />
       </a>
