@@ -18,7 +18,7 @@ function scrollToSection(section: string) {
 </script>
 
 <template>
-  <nav class="z-50 sticky top-0 start-0 backdrop-blur-lg">
+  <nav class="z-50 sticky top-0 start-0 backdrop-blur-md bg-gradient-to-b from-white from-30% via-white/50 via-60%">
     <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <LogoIcon class="h-14 opacity-90" />
