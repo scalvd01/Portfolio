@@ -48,7 +48,7 @@ export const projectsList: Array<Project> = [
     description:
       'Implementación de múltiples arquitecturas de CNN. Entrenamiento y aplicación de distintos algoritmos para la detección y clasificación morfológica de auroras boreales en las imágenes del instrumento FAI a bordo del satélite CASSIOPE/e-POP (ESA).',
     technologies: ['Python', 'Tensorflow', 'keras'],
-    image: 'src/assets/images/projects/tfg_project_image.webp'
+    image: '/projectsImages/tfg_project_image.webp'
   },
   {
     name: 'Paperclips',
@@ -57,7 +57,7 @@ export const projectsList: Array<Project> = [
     technologies: ['Vue', 'Tailwind', 'Flowbite', 'VueUse', 'i18n', 'Pinia'],
     pageLink: 'https://paperclips-game.netlify.app/',
     githubLink: 'https://github.com/scalvd01/Paperclips-game',
-    image: 'src/assets/images/projects/paperclips_project.webp'
+    image: '/projectsImages/paperclips_project.webp'
   },
   {
     name: 'The Binding of Isaac Items Wiki',
@@ -66,7 +66,7 @@ export const projectsList: Array<Project> = [
     technologies: ['Vue', 'Vue Router', 'Tailwind', 'Flowbite', 'VueUse'],
     pageLink: 'https://tboi-items-wiki.netlify.app/#/',
     githubLink: 'https://github.com/scalvd01/tboi-items-wiki',
-    image: 'src/assets/images/projects/tboi_items_wiki_project.webp'
+    image: '/projectsImages/tboi_items_wiki_project.webp'
   },
   {
     name: 'THE BUTTON',
@@ -74,7 +74,7 @@ export const projectsList: Array<Project> = [
     technologies: ['Vue', 'Tailwind', 'Flowbite', 'VueUse', 'Vue Sonner'],
     pageLink: 'https://the-button-game.netlify.app/',
     githubLink: 'https://github.com/scalvd01/The-Button',
-    image: 'src/assets/images/projects/the_button_project.webp'
+    image: '/projectsImages/the_button_project.webp'
   }
 ]
 
