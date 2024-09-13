@@ -45,12 +45,4 @@ watch(isProjectsVisible, () => {
     </div>
   </section>
 </template>
-<!-- <div id="blurred-blob-4" class="absolute z-10 top-10 left-0">
-      <div class="size-80 bg-green-500 rounded-full blur-3xl opacity-30"></div>
-    </div>
-    <div id="blurred-blob-5" class="absolute z-10 -right-36">
-      <div class="size-80 bg-orange-400 rounded-full blur-3xl opacity-40"></div>
-    </div>
-    <div id="blurred-blob-6" class="absolute z-10 bottom-10 left-20">
-      <div class="size-96 bg-blue-500 rounded-full blur-3xl opacity-40"></div>
-    </div> -->
+

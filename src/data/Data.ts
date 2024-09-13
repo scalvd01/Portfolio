@@ -4,6 +4,7 @@ export const skills: Array<{ icon: string; name: string }> = [
   { icon: 'javascript', name: 'JavaScript' },
   { icon: 'tailwind', name: 'Tailwind' },
   { icon: 'vue', name: 'Vue.js' },
+  { icon: 'react', name: 'React' },
   { icon: 'nodejs', name: 'Node.js' },
   { icon: 'py', name: 'Python' },
   { icon: 'tensorflow', name: 'TensorFlow' },
@@ -51,6 +52,14 @@ export const projectsList: Array<Project> = [
     image: '/projectsImages/tfg_project_image.webp'
   },
   {
+    name: 'SpaceX Launches',
+    description:
+      'Página web que ofrece información detallada sobre los lanzamientos, plataformas de despegue, cohetes y tripulación de SpaceX obtenida consumiendo una REST API. Con diseño adaptable a todo tipo de pantallas.',
+    technologies: ['Vite', 'React', 'React Router', 'NextUI', 'Tailwind'],
+    pageLink: 'https://spacex-launches-data.netlify.app/',
+    image: '/projectsImages/spacex_launches_project.webp'
+  },
+  {
     name: 'Paperclips',
     description:
       'Juego web autoincremental de gestión de recursos con mejoras y complejidad ascendente. Con internacionalización completa de la aplicación.',
@@ -58,8 +67,7 @@ export const projectsList: Array<Project> = [
     pageLink: 'https://paperclips-game.netlify.app/',
     githubLink: 'https://github.com/scalvd01/Paperclips-game',
     image: '/projectsImages/paperclips_project.webp'
-  },
-  {
+  },{
     name: 'The Binding of Isaac Items Wiki',
     description:
       'Wiki en la que se detalla la información de los ítems y objetos del juego The Binding of Isaac y sus expansiones.',
@@ -68,6 +76,10 @@ export const projectsList: Array<Project> = [
     githubLink: 'https://github.com/scalvd01/tboi-items-wiki',
     image: '/projectsImages/tboi_items_wiki_project.webp'
   },
+]
+
+export const otherProjectsList: Array<Project> = [
+  
   {
     name: 'THE BUTTON',
     description: 'Mini juego basado en la probabilidad con logros incluidos.',
